@@ -1,1 +1,1 @@
-web: gunicorn SWT:SWTApp.py
+web: gunicorn SWTApp:app
