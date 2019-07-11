@@ -206,7 +206,6 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 /* END PC STYLING */
 
@@ -283,6 +282,18 @@ p{
         background:rgb(255, 255, 255, 0.3);
         border-radius: 48%;
     }
+    #Ryepic{
+    max-height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #maker{
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -356,6 +367,18 @@ p{
         max-height:auto;
         background:rgb(255, 255, 255, 0.3);
         border-radius: 48%;
+    }
+    #Ryepic{
+    max-height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    #maker{
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 /* END MOBILE STYLING */
