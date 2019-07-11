@@ -1,0 +1,166 @@
+<!-- stillwatertrout.ca/ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stillwater Trout Fly Fishing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/SWTIndex.css">
+    
+    <script src="JS.js"></script>
+</head>
+<body>
+    <div id="wholeHomeContainer">
+        
+
+        <div id="logoDiv">            
+            <img src="static/icons/SWTlogoRework.png" alt="stillwatertrout.ca logo" id="logo">
+        </div>
+
+        <div id="troutSnapsDiv">
+            <img src="static/images/dad11.JPG" alt="11 pound trout" class="troutSnap" id="DadSnap">
+            <img src="static/images/kev10.JPG" alt="10 pound trout" class="troutSnap" id="KevSnap">
+            <img src="static/images/rye12.JPG" alt="12 pound trout" class="troutSnap">
+            
+        </div>
+
+        <div id="introductionDiv">
+             
+            <div id="introText" id="introtext">
+                <h1 id="homeHeader">Stillwatertrout.ca has all the information you need for success when fly fishing for trout in a lake.</h1> 
+                <p id="homeP1" class="intropara">
+                        All the information on this site is geared towards understanding fly fishing for trout in a lake. Much of the information available online about fly fishing is for stream fishing. The insect imitations, the tackle and the technique that work in a stream are often different from what works fly fishing stillwater.  
+                </p>
+                <p id="homeP2" class="intropara">
+                    If you're new to stillwater fly fishing or wondering what's involved this site is for you. All aspects of this mode of fishing are covered, from the prey items the trout are after to the flies that imitate them. Rods, reels, boats and tackle are explained and fishing methods are detailed. Everything down to the last knot on the leader is covered here. With this resource you should have all the information you need for a successful first season on the lake.              
+                </p>
+                <p id="homeP3" class="intropara">
+                    If you are an experienced fly fisher this site is for you too. Part of fly fishing is bringing new people into the sport and along with your helpful tips this link can be passed to fishing companions who are learning the ropes. The articles are carefully written and illustrated so picking up the ideas should be easy and fun. The site goes beyond the basics and you could find insights into mysteries you're working on in your own fishing.
+                </p>
+                <p id="homeP4" class="intropara">
+                    Thanks for visting the site and enjoy your days fishing at the lake!
+                </p>
+            </div>
+            
+        </div>
+        
+        
+
+        <div id="buttonsDiv">
+            <!-- Invertebrates -->
+            <div id="invertebratesB">
+                <a href="{{ url_for('caddis') }}" target="_blank">
+                <img src="static/icons/iconCaddis.png" alt="Caddis" class="icon iconBug"></img>
+                </a>
+                <a href="{{ url_for('chironomids') }}" target="_blank">
+                    <img src="static/icons/iconChironomids.png" alt="Chironomids" class="icon iconBug"></img>
+                </a>
+                <a href="{{ url_for('damsels') }}" target="_blank">
+                    <img src="static/icons/iconDamsel.png" alt="Damselflies" class="icon iconBug"></img>
+                </a>
+                <a href="{{ url_for('dragons') }}" target="_blank">
+                    <img src="static/icons/iconDragon.png" alt="Dragonflies" class="icon iconBug"></img>
+                </a>
+                <a href="{{ url_for('leeches') }}" target="_blank">
+                    <img src="static/icons/iconLeech.png" alt="Leeches" class="icon iconBug"></img>
+                </a>
+                <a href="{{ url_for('mayflies') }}" target="_blank">
+                    <img src="static/icons/iconMayflies.png" alt="Mayflies" class="icon iconBug"></img>
+                </a>
+                <a href="{{ url_for('scuds') }}" target="_blank">
+                    <img src="static/icons/iconScuds.png" alt="Scuds" class="icon iconBug"></img>
+                </a>
+            </div>
+            
+        
+        
+            <!-- fly icons linking to galleries -->
+            <div id="fliesB">
+                <a href="{{ url_for('caddis_pattern') }}" target="_blank">
+                    <img src="static/icons/caddisPattern.png" alt="Caddis" class="icon iconFly"></img>
+                </a> 
+                <a href="{{ url_for('chironomidPattern') }}" target="_blank">
+                    <img src="static/icons/chironomidPatterns.png" alt="Chironomids" class="icon iconFly"></img>
+                </a>
+                <a href="{{ url_for('damselPattern') }}" target="_blank">
+                    <img src="static/icons/damselPatterns.png" alt="Damselflies" class="icon iconFly"></img>
+                </a>
+                <a href="{{ url_for('dragonPattern') }}" target="_blank">
+                    <img src="static/icons/dragonPatterns.png" alt="Dragonflies" class="icon iconFly"></img>
+                </a>
+                <a href="{{ url_for('leechPattern') }}" target="_blank">
+                    <img src="static/icons/leechPatterns.png" alt="Leeches" class="icon iconFly"></img>
+                </a>
+                <a href="{{ url_for('mayflyPattern') }}" target="_blank">
+                    <img src="static/icons/mayflyPatterns.png" alt="Mayflies" class="icon iconFly"></img>
+                </a>
+                <a href="{{ url_for('scudPattern') }}" target="_blank">
+                    <img src="static/icons/scudPatterns.png" alt="Scuds" class="icon iconFly"></img>
+                </a>
+            </div>
+            
+         
+        
+            <!-- Techniques -->
+            <div id="techniqueB">
+                <a href="{{ url_for('deep') }}" target="_blank">
+                    <img src="static/icons/iconFishingDeep.png" alt="Deep fishing technique" class="icon iconTechnique"></img>
+                </a> 
+                <a href="{{ url_for('sink') }}" target="_blank">
+                    <img src="static/icons/iconSinkLineFloatFly.png" alt="Sink line technique" class="icon iconTechnique"></img>
+                </a>  
+                <a href="{{ url_for('indicatr') }}" target="_blank">
+                    <img src="static/icons/iconIndicator.png" alt="Indicator technique" class="icon iconTechnique"></img>
+                </a>  
+                <a href="{{ url_for('knots') }}" target="_blank">
+                    <img src="static/icons/iconKnots.png" alt="Fishing knots" class="icon iconTechnique"></img>
+                </a>    
+            </div>
+            
+        
+
+            <!-- Gear -->
+            <div id="gearB">
+                <a href="{{ url_for('boats') }}" target="_blank">
+                    <img src="static/icons/iconBoats.png" alt="Boats" class="icon iconGear"></img>
+                </a>
+                <a href="{{ url_for('motors') }}" target="_blank">
+                    <img src="static/icons/iconmotors.png" alt="Boat motors" class="icon iconGear"></img>
+                </a>  
+                <a href="{{ url_for('rods') }}" target="_blank">
+                    <img src="static/icons/iconRods.png" alt="Fly rods" class="icon iconGear"></img>
+                </a>  
+                <a href="{{ url_for('reels') }}" target="_blank">
+                    <img src="static/icons/iconReels.png" alt="Fly reels" class="icon iconGear"></img>
+                </a>  
+                <a href="{{ url_for('gear') }}" target="_blank">
+                    <img src="static/icons/iconOtherGear.png" alt="Other gear" class="icon iconGear"></img>
+                </a>                               
+            </div>
+            
+        </div>
+        <div id="housekeepingDiv">
+            <div>
+                <img src="static/images/RyanCross.jpg" id="Ryepic">
+            </div>
+            <div id="maker">
+                <h2>Ryan Cross made this site.</h2>
+                <p>I'm a web developer and I could build your page. Flyfishers read this page would you like to advertise here? Want to say hello or offer some feedback? </p>
+                <p>ryancrosscodes@gmail.com</p>
+            </div>
+
+
+        </div>
+    
+    
+    
+    
+
+
+    </div>
+    
+
+</body>
+</html>

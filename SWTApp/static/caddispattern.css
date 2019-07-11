@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END MEYERWEB RESET @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+/* mobile styling */
+body{
+    background-image: url("../static/images/lakebed.jpg");
+        background-position: center;
+        background-size : 100% 100%;
+        background-repeat: no-repeat;
+}
+#wholeContainer{
+    display: grid;
+    height: 4400px;
+    background: rgb(247, 9, 9);
+    grid-template-rows: 100px 100px 1fr;
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;    
+    text-shadow: 2px 2px 2px rgb(41, 39, 39);
+    color: black;
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;    
+    text-shadow: 1px 1px 1px rgb(41, 39, 39);
+    color: black;
+    text-align: center;
+    background: rgb(238, 229, 229);
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;    
+    text-shadow: 1px 1px 1px rgb(41, 39, 39);
+    color: black;
+    text-align: center;
+    background: rgb(238, 229, 229);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;      
+    color: black;    
+    padding: 10px;
+    background: rgb(238, 229, 229);
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    background: rgb(238, 229, 229);     
+    color: blue;
+    display: block; 
+    text-align:center;  
+    padding: 10px; 
+}
+ul, li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;      
+    color: black;    
+    padding: 3px;
+    background: rgb(238, 229, 229); 
+    list-style-type:disc;
+    list-style-position: inside;
+}
+
+#Logo{
+    display: grid;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(235, 231, 231, 0.3);
+    border-radius: 50%;
+    border: 5px solid rgb(202, 190, 18); 
+    place-items: center;  
+    
+}
+
+.patternPic{
+    max-width: 90%;
+    min-width: 90%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;   
+}
+
+
+
+#ads{
+    max-width: 300px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#swtLogo{
+    max-height: 200px;
+}
+/*  END mobile styling */
+
+@media screen and (min-width: 975px){
+    #wholeContainer{
+        height: 4500px;
+        margin: 10px 30%;
+        grid-template-rows: 180px 100px 1fr;
+    } 
+    #Logo{
+        height: 150px;
+    }
+    .patternPic{
+        min-width: 90%;
+        max-width: 90%;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;   
+    }
+    
+}
