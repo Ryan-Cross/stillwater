@@ -99,13 +99,13 @@ p{
     
 }
 #scud{
-    max-height: 200px;
+    max-width: 90%;
     /*padding: 20px;*/
     display: block;
     margin: 0 auto;
 }
 #scudfly{
-    max-height: 250px;
+    max-width: 90%;
     /*padding: 20px;*/
     display: block;
     margin: 0 auto;
