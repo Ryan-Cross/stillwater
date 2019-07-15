@@ -123,7 +123,7 @@ table {
 .intropara{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;    
-    
+    background: rgb(235, 231, 231, 0.3);
     color: black;    
     padding: 10px;
 }
@@ -180,7 +180,7 @@ h2{
     text-shadow: 1px 1px 1px rgb(41, 39, 39);
     color: black;
     text-align: center;
-    background: rgb(238, 229, 229);
+    background: rgb(235, 231, 231, 0.3);
 }
 
 #housekeepingDiv{
@@ -192,7 +192,7 @@ p{
     font-size: 15px;
     color: black;
 
-    background: rgb(238, 229, 229);
+    background: rgb(235, 231, 231, 0.3);
 }
 #Ryepic{
     max-height: 80%;
@@ -369,10 +369,10 @@ p{
         border-radius: 48%;
     }
     #Ryepic{
-    max-height: 80%;
+    max-width: 300px;
+    /*padding: 10px;*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
     #maker{
         max-width: 80%;
