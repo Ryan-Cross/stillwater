@@ -127,19 +127,19 @@ ul, li{
 #dadTube{
     max-height: 180px;
     
-    padding: 20px;
+    /*padding: 20px;*/
     display: block;
     margin: 0 auto;
 }
 #ryeBoat{
     max-height: 180px;
-    padding: 20px;
+    /*padding: 20px;*/
     display: block;
     margin: 0 auto;
 }
 #keirShip{
     max-height: 180px;
-    padding: 20px;
+    /*padding: 20px;*/
     display: block;
     margin: 0 auto;
 }
@@ -150,8 +150,8 @@ ul, li{
     margin: 0 auto;
 }
 #pontoon{
-    max-height: 250px;
-    padding: 20px;
+    max-width: 90%;
+    /*padding: 20px;*/
     display: block;
     margin: 0 auto;
 }
@@ -181,8 +181,8 @@ ul, li{
     }
     #dadTube{
         max-height: 300px;
-        max-width: 100%;
-        padding: 20px;
+        max-width: 90%;
+        /*padding: 20px;*/
         display: block;
         margin: 0 auto;
     }  
@@ -203,7 +203,7 @@ ul, li{
     #canoe {
         max-height: 300px;
         max-width: 100%;
-        padding: 20px;
+        /*padding: 20px;*/
         display: block;
         margin: 0 auto;
     }   
