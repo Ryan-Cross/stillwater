@@ -50,86 +50,69 @@ table {
 
 
 /* BEGIN PC STYLING */
-#wholeHomeContainer{  
-    height: 250vh;  
-    width: 100vw;  
-    background-color: #5dbf8b;
-    background-image: url(../static/images/lakebed.jpg);
-    /* SWTApp/static/images/lakebed.jpg */
-    background-position: center;
-    background-size : 100% 100%;
-    background-repeat: no-repeat;
+html{
+    /*font-size: 60%;*/
+}
 
-    display: grid;
-    /* logo..pics..intro..buttons..contact     */
-    grid-template-rows: 4fr 4fr 4fr 12fr 2fr;
+.textcontent{
+    width: 90vw;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 5vw auto 5vw auto;
+}
+h1{
+    max-width: 75em;
+    text-shadow: 1px 1px 1px rgb(41, 39, 39);
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+}
+p{
+    max-width: 75em;
+    margin: 2rem auto 2rem auto;
+}
 
+main{
+    width: 100vw;
+    background-color: black;
 }
 
 
 /* logo */
-#logoDiv{
-    display: grid;
-    place-items: center; 
-}
+ #logodiv{
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
+ }
 #logo{
-    /* display: grid; */
-    max-width:auto;
-    max-height: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    background: rgb(235, 231, 231, 0.3);
-    border-radius: 50%;
-    border: 5px solid rgb(202, 190, 18); 
-    place-items: center;   
+    height: 45vw;
+    max-height: available;
+
 }
 
 
 /* trout snaps */
-#troutSnapsDiv{
-    display: grid;
-    grid-template-rows: 1fr;
-    /* max-height: 90%; */
-    /* min-height: 40px; */
-    grid-template-columns: 30fr 30fr 30fr;
-    place-items: center;
+#troutSnaps{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
 
-}.troutSnap{
-    max-width:80%;
-    height: auto;
-    border: 5px solid rgba(245, 248, 248, 0.973); 
+}
+.troutSnap{
+    width: 28vw;
+    box-sizing: border-box;
+    border: 1vw solid white;
 }
 
 
 /* intro */
-.transparently{
-    background: rgb(235, 231, 231, 0.3);
-}
-#introText{
-    display: grid;
 
-}
-#introductionDiv{
-    display:grid;
-    padding-right: 5%;
-    padding-left: 5%;
-    place-items: stretch center;
-    margin: 15px;
-}
-#homeHeader{
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;    
-    text-shadow: 2px 2px 2px rgb(41, 39, 39);
-    color: black;
-    text-align: center;
-}
-.intropara{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;    
 
-    color: black;    
-    padding: 10px;
-}
+
 
 
 /* buttons */
@@ -177,211 +160,29 @@ table {
 .iconFly{
     border: 5px solid rgb(111, 18, 119); 
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    text-shadow: 1px 1px 1px rgb(41, 39, 39);
-    color: black;
-    text-align: center;
 
-}
+#omnivore{
+    width: 100vw;
+    background-color:white;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
 
-#housekeepingDiv{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: black;
+    text-decoration: blue;
 
 
 }
-#Ryepic{
-    max-height: 80%;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#omnilogo{
+    height: 8vw;
+    min-height: 40px;
 }
-#maker{
-    max-width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#contactpoints{
+    display: flex;
+    flex-flow: column nowrap;
 }
 /* END PC STYLING */
 
 
 
-/* BEGIN iPAD STYLING */
-@media screen and (max-width: 975px){
-    
-    
-    /* trout snaps */
-    #wholeHomeContainer{  
-        display: grid;
-        /* logo..pics..intro..buttons..contact     */
-        grid-template-rows: 200px 1fr 2fr 8fr 1fr; 
-        height: 450vh;
-        width: 100vw;  
-        background-color: #5dbf8b;
-        /*background-image:url();*/
-        /*SWTApp/static/images/lakebed.jpg*/
-        background-position: center;
-        background-size : 100% 100%;
-        background-repeat: no-repeat;
-
-        
-
-    }
-    #logo{
-        display: grid;
-        
-        max-height: 90%;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-        background: rgb(235, 231, 231, 0.3);
-        border-radius: 50%;
-        border: 5px solid rgb(170, 28, 9); 
-        place-items: center;   
-    }
-    #troutSnapsDiv{
-        display: grid;
-        grid-template-rows: 1fr;
-        max-height: 90%;
-        /* min-height: 40px; */
-        grid-template-columns: 30fr 30fr 30fr;
-        place-items: center;
-
-    }.troutSnap{
-        max-width:80%;
-        height: auto;
-        border: 5px solid rgba(245, 248, 248, 0.973); 
-    }
-    
-    #homeHeader{
-        font-family: 'Roboto', sans-serif;
-        font-size: 28px;    
-        text-shadow: 1px 1px 1px rgb(41, 39, 39);
-        color: black;
-        text-align: center;
-    }
-    .intropara{
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;           
-        color: black;    
-        padding: 10px;
-    }
-    #buttonsDiv{
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-    }
-    .icon{      
-        object-fit: contain;
-        max-width: 80%;
-        max-height:auto;
-        background:rgb(255, 255, 255, 0.3);
-        border-radius: 48%;
-    }
-    #Ryepic{
-    max-height: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    #maker{
-        max-width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-
-/* END iPAD STYLING */
-
-/* BEGIN MOBILE STYLING */
-@media screen and (max-width: 600px){
-    #logo{
-        border: 5px solid rgb(36, 18, 202);           
-    }
-    #wholeHomeContainer{  
-        height: 310vh;
-        width: 100vw;  
-        background-color: #5dbf8b;
-        /*background-image: url("/images/lakebed.jpg");*/
-        background-position: center;
-        background-size : 100% 100%;
-        background-repeat: no-repeat;
-
-        display: grid;
-        /* logo..pics..intro..buttons..contact     */
-        grid-template-rows: 150px 1.3fr 3fr 10fr 1fr; 
-
-    }
-    #introductionDiv{
-        display:grid;
-        padding-right: 5%;
-        padding-left: 5%;
-        place-items: stretch center;
-        margin: 5px;
-    }
-    #homeHeader{
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;    
-        text-shadow: 0px 0px 0px rgb(41, 39, 39);
-        color: black;
-        text-align: center;
-    }
-    .intropara{
-        font-family: 'Roboto', sans-serif;
-        font-size: 14px;           
-        color: black;    
-        padding: 3px;
-    }
-    #DadSnap{
-        display: none;
-    }
-    /* #KevSnap{
-        display: none;
-    } */
-    #troutSnapsDiv{
-        display: grid;
-        grid-template-rows: 1fr;
-        max-height: 90%;
-        /* min-height: 40px; */
-        grid-template-columns: 1fr 1fr;
-        place-items: center;
-
-    }.troutSnap{
-        max-width:80%;
-        /*max-height: 80%;*/
-        border: 5px solid rgba(245, 248, 248, 0.973); 
-    }
-    #buttonsDiv{
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-    }
-    .icon{      
-        object-fit: contain;
-        max-width: 80%;
-        max-height:auto;
-        background:rgb(255, 255, 255, 0.3);
-        border-radius: 48%;
-    }
-    #Ryepic{
-    max-width: 300px;
-    /*padding: 10px;*/
-    display: block;
-    margin: 0 auto;
-}
-    #maker{
-        max-width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-/* END MOBILE STYLING */

@@ -17,47 +17,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="static/SWTIndex.css">
-    
+    <link rel="icon" type="image/png" href="static/troutico.ico">
     <script src="JS.js"></script>
 </head>
 <body>
-    <div id="wholeHomeContainer">
+    <main>
         
 
-        <div id="logoDiv">            
-            <img src="static/icons/SWTlogoRework.png" alt="stillwatertrout.ca logo" id="logo">
-        </div>
+        <figure id="logodiv">
+            <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+        </figure>
 
-        <div id="troutSnapsDiv">
+        <figure id="troutSnaps">
             <img src="static/images/dad11.JPG" alt="11 pound trout" class="troutSnap" id="DadSnap">
             <img src="static/images/kev10.JPG" alt="10 pound trout" class="troutSnap" id="KevSnap">
             <img src="static/images/rye12.JPG" alt="12 pound trout" class="troutSnap">
-            
-        </div>
+        </figure>
 
-        <div id="introductionDiv">
-             
-            <div id="introText" id="introtext" class="transparently">
-                <h1 id="homeHeader" class="transparently">Stillwatertrout.ca has all the information you need for success when fly fishing for trout in a lake.</h1>
-                <p id="homeP1" class="intropara" class="transparently">
-                        All the information on this site is geared towards understanding fly fishing for trout in a lake. Much of the information available online about fly fishing is for stream fishing. The insect imitations, the tackle and the technique that work in a stream are often different from what works fly fishing stillwater.  
-                </p>
-                <p id="homeP2" class="intropara" class="transparently">
-                    If you're new to stillwater fly fishing or wondering what's involved this site is for you. All aspects of this mode of fishing are covered, from the prey items the trout are after to the flies that imitate them. Rods, reels, boats and tackle are explained and fishing methods are detailed. Everything down to the last knot on the leader is covered here. With this resource you should have all the information you need for a successful first season on the lake.              
-                </p>
-                <p id="homeP3" class="intropara" class="transparently">
-                    If you are an experienced fly fisher this site is for you too. Part of fly fishing is bringing new people into the sport and along with your helpful tips this link can be passed to fishing companions who are learning the ropes. The articles are carefully written and illustrated so picking up the ideas should be easy and fun. The site goes beyond the basics and you could find insights into mysteries you're working on in your own fishing.
-                </p>
-                <p id="homeP4" class="intropara" class="transparently">
-                    Thanks for visting the site and enjoy your days fishing at the lake!
-                </p>
-            </div>
-            
-        </div>
+        <section  class="textcontent" >
+            <h1 >Stillwatertrout.ca has all the information you need for success when fly fishing for trout in a lake.</h1>
+            <p >
+                    All the information on this site is geared towards understanding fly fishing for trout in a lake. Much of the information available online about fly fishing is for stream fishing. The insect imitations, the tackle and the technique that work in a stream are often different from what works fly fishing stillwater.
+            </p>
+            <p>
+                If you're new to stillwater fly fishing or wondering what's involved this site is for you. All aspects of this mode of fishing are covered, from the prey items the trout are after to the flies that imitate them. Rods, reels, boats and tackle are explained and fishing methods are detailed. Everything down to the last knot on the leader is covered here. With this resource you should have all the information you need for a successful first season on the lake.
+            </p>
+            <p >
+                If you are an experienced fly fisher this site is for you too. Part of fly fishing is bringing new people into the sport and along with your helpful tips this link can be passed to fishing companions who are learning the ropes. The articles are carefully written and illustrated so picking up the ideas should be easy and fun. The site goes beyond the basics and you could find insights into mysteries you're working on in your own fishing.
+            </p>
+            <p >
+                Thanks for visiting the site and enjoy your days fishing at the lake!
+            </p>
+        </section>
         
         
 
-        <div id="buttonsDiv">
+        <nav id="buttonsDiv">
             <!-- Invertebrates -->
             <div id="invertebratesB">
                 <a href="{{ url_for('caddis') }}" >
@@ -149,17 +144,11 @@
                 </a>                               
             </div>
             
-        </div>
-        <div id="housekeepingDiv">
-            <div>
-                <img src="static/images/RyanCross.jpg" id="Ryepic">
-            </div>
-            <div id="maker">
-                <h2 id="maker heading" class="transparently">Ryan Cross made this site.</h2>
-                <p id="makerblurb" class="transparently">I'm a web developer and I could build your page. Flyfishers read this page would you like to advertise here? Want to say hello or offer some feedback? </p>
-                <p id="makermail" class="transparently">ryancrosscodes@gmail.com</p>
-            </div>
-
+        </nav>
+        <div id="omnivore">
+            <img src="static/images/reddotomni.png" id="omnilogo">
+            <p>We built this site! We can build yours!</p>
+            <a href="https://www.omnivorewebdesign.com">www.omnivorewebdesign.com</a>
 
         </div>
     
@@ -168,7 +157,7 @@
     
 
 
-    </div>
+    </main>
     
 
 </body>
