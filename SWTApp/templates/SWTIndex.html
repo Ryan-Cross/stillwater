@@ -1,6 +1,6 @@
 <!-- stillwatertrout.ca/ -->
 <!DOCTYPE html>
-<html>
+<html  lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148952760-1"></script>
@@ -14,11 +14,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Stillwater Trout Fly Fishing</title>
+    <meta name="Description" content="Tips, tricks, tactics for flyfishing for trout in a lake.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
     <link rel="stylesheet" type="text/css" media="screen" href="static/SWTIndex.css">
     <link rel="icon" type="image/png" href="static/troutico.ico">
-    <script src="JS.js"></script>
 </head>
 <body>
     <main>
@@ -29,24 +30,29 @@
         </figure>
 
         <figure id="troutSnaps">
-            <img src="static/images/dad11.JPG" alt="11 pound trout" class="troutSnap" id="DadSnap">
-            <img src="static/images/kev10.JPG" alt="10 pound trout" class="troutSnap" id="KevSnap">
-            <img src="static/images/rye12.JPG" alt="12 pound trout" class="troutSnap">
+            <img src="static/images/dad11.JPG" alt="11 pound trout" class="troutSnap" id="Dadsnap">
+            <img src="static/images/kev10.JPG" alt="10 pound trout" class="troutSnap" id="Kevsnap">
+            <img src="static/images/rye12.JPG" alt="12 pound trout" class="troutSnap" id="Ryesnap">
         </figure>
 
         <section  class="textcontent" >
-            <h1 >Stillwatertrout.ca has all the information you need for success when fly fishing for trout in a lake.</h1>
-            <p >
-                    All the information on this site is geared towards understanding fly fishing for trout in a lake. Much of the information available online about fly fishing is for stream fishing. The insect imitations, the tackle and the technique that work in a stream are often different from what works fly fishing stillwater.
+            <h1>CATCH TROUT.<br> WITH FLIES.<br> IN A LAKE.</h1>
+            <p>
+                    All the information on this site is geared towar<span id="measure">ds understanding fly fishing for trout in a la</span>ke. The insect imitations, the tackle and the techniques that work in a river don't necessarily apply when fly fishing stillwater. Everything here is for lake application.
+            </p>
+            <h2>If you're new, learn it all here.</h2>
+            <p>
+                Every day the lake offers up a new scenario. When you start out it's easy to have a <i>good day</i> on an <i>exceptional day</i> because you're not technically prepared. The truth is you can go on for ages doing something that doesn't work without even knowing. Some day you find out and fix it in seconds. This site is a place to get all the fundamentals down and eliminate any holes in your game.
+            </p>
+            <h2>If you're experienced this site is for sharing.</h2>
+            <p>
+                Part of fly fishing is bringing new people into the sport. Along with your helpful tips this link can be passed to fishing companions who are learning the ropes. The articles are carefully written and illustrated so picking up the ideas should be easy. The site goes beyond the basics and you could find insights into mysteries you're working on in your own fishing.
             </p>
             <p>
-                If you're new to stillwater fly fishing or wondering what's involved this site is for you. All aspects of this mode of fishing are covered, from the prey items the trout are after to the flies that imitate them. Rods, reels, boats and tackle are explained and fishing methods are detailed. Everything down to the last knot on the leader is covered here. With this resource you should have all the information you need for a successful first season on the lake.
+                Join our facebook page!  <a href="https://www.facebook.com/"  target="_blank" rel="noopener"><img id="facebookicon" src="static/images/facebookBu.png" alt="facebook icon"></a>
             </p>
-            <p >
-                If you are an experienced fly fisher this site is for you too. Part of fly fishing is bringing new people into the sport and along with your helpful tips this link can be passed to fishing companions who are learning the ropes. The articles are carefully written and illustrated so picking up the ideas should be easy and fun. The site goes beyond the basics and you could find insights into mysteries you're working on in your own fishing.
-            </p>
-            <p >
-                Thanks for visiting the site and enjoy your days fishing at the lake!
+            <p>
+                Thanks for visiting the site and good luck on the lake!
             </p>
         </section>
         
@@ -54,111 +60,100 @@
 
         <nav id="buttonsDiv">
             <!-- Invertebrates -->
-            <div id="invertebratesB">
-                <a href="{{ url_for('caddis') }}" >
-                <img src="static/icons/iconCaddis.png" alt="Caddis" class="icon iconBug"></img>
+            <div id="invertebratesB" class="iconStrip">
+                <a href="{{ url_for('caddis') }}" class="icon iconBug">
+                    <img src="static/icons/iconCaddis.png" alt="Caddis" class="iconIMG">
                 </a>
-                <a href="{{ url_for('chironomids') }}" >
-                    <img src="static/icons/iconChironomids.png" alt="Chironomids" class="icon iconBug"></img>
+                <a href="{{ url_for('chironomids') }}" class="icon iconBug" >
+                    <img src="static/icons/iconChironomids.png" alt="Chironomids" class="iconIMG">
                 </a>
-                <a href="{{ url_for('damsels') }}" >
-                    <img src="static/icons/iconDamsel.png" alt="Damselflies" class="icon iconBug"></img>
+                <a href="{{ url_for('damsels') }}" class="icon iconBug" >
+                    <img src="static/icons/iconDamsel.png" alt="Damselflies" class="iconIMG">
                 </a>
-                <a href="{{ url_for('dragons') }}" >
-                    <img src="static/icons/iconDragon.png" alt="Dragonflies" class="icon iconBug"></img>
+                <a href="{{ url_for('dragons') }}" class="icon iconBug" >
+                    <img src="static/icons/iconDragon.png" alt="Dragonflies" class="iconIMG">
                 </a>
-                <a href="{{ url_for('leeches') }}" >
-                    <img src="static/icons/iconLeech.png" alt="Leeches" class="icon iconBug"></img>
+                <a href="{{ url_for('leeches') }}" class="icon iconBug" >
+                    <img src="static/icons/iconLeech.png" alt="Leeches" class="iconIMG">
                 </a>
-                <a href="{{ url_for('mayflies') }}" >
-                    <img src="static/icons/iconMayflies.png" alt="Mayflies" class="icon iconBug"></img>
+                <a href="{{ url_for('mayflies') }}" class="icon iconBug">
+                    <img src="static/icons/iconMayflies.png" alt="Mayflies" class="iconIMG">
                 </a>
-                <a href="{{ url_for('scuds') }}" >
-                    <img src="static/icons/iconScuds.png" alt="Scuds" class="icon iconBug"></img>
+                <a href="{{ url_for('scuds') }}" class="icon iconBug" >
+                    <img src="static/icons/iconScuds.png" alt="Scuds" class="iconIMG">
                 </a>
             </div>
             
         
         
             <!-- fly icons linking to galleries -->
-            <div id="fliesB">
-                <a href="{{ url_for('caddis_pattern') }}" >
-                    <img src="static/icons/caddisPattern.png" alt="Caddis" class="icon iconFly"></img>
+            <div id="fliesB" class="iconStrip">
+                <a href="{{ url_for('caddis_pattern') }}" class="icon iconFly">
+                    <img src="static/icons/caddisPattern.png" alt="Caddis" class="iconIMG"></img>
                 </a> 
-                <a href="{{ url_for('chironomidPattern') }}">
-                    <img src="static/icons/chironomidPatterns.png" alt="Chironomids" class="icon iconFly"></img>
+                <a href="{{ url_for('chironomidPattern') }}" class="icon iconFly">
+                    <img src="static/icons/chironomidPatterns.png" alt="Chironomids" class="iconIMG"></img>
                 </a>
-                <a href="{{ url_for('damselPattern') }}" >
-                    <img src="static/icons/damselPatterns.png" alt="Damselflies" class="icon iconFly"></img>
+                <a href="{{ url_for('damselPattern') }}" class="icon iconFly" >
+                    <img src="static/icons/damselPatterns.png" alt="Damselflies" class="iconIMG"></img>
                 </a>
-                <a href="{{ url_for('dragonPattern') }}" >
-                    <img src="static/icons/dragonPatterns.png" alt="Dragonflies" class="icon iconFly"></img>
+                <a href="{{ url_for('dragonPattern') }}" class="icon iconFly" >
+                    <img src="static/icons/dragonPatterns.png" alt="Dragonflies" class="iconIMG"></img>
                 </a>
-                <a href="{{ url_for('leechPattern') }}" >
-                    <img src="static/icons/leechPatterns.png" alt="Leeches" class="icon iconFly"></img>
+                <a href="{{ url_for('leechPattern') }}" class="icon iconFly" >
+                    <img src="static/icons/leechPatterns.png" alt="Leeches" class="iconIMG"></img>
                 </a>
-                <a href="{{ url_for('mayflyPattern') }}" >
-                    <img src="static/icons/mayflyPatterns.png" alt="Mayflies" class="icon iconFly"></img>
+                <a href="{{ url_for('mayflyPattern') }}" class="icon iconFly" >
+                    <img src="static/icons/mayflyPatterns.png" alt="Mayflies" class="iconIMG"></img>
                 </a>
-                <a href="{{ url_for('scudPattern') }}" >
-                    <img src="static/icons/scudPatterns.png" alt="Scuds" class="icon iconFly"></img>
+                <a href="{{ url_for('scudPattern') }}" class="icon iconFly" >
+                    <img src="static/icons/scudPatterns.png" alt="Scuds" class="iconIMG"></img>
                 </a>
             </div>
-            
-         
+
         
             <!-- Techniques -->
-            <div id="techniqueB">
-                <a href="{{ url_for('deep') }}" >
-                    <img src="static/icons/iconFishingDeep.png" alt="Deep fishing technique" class="icon iconTechnique"></img>
+            <div id="techniqueB" class="iconStrip">
+                <a href="{{ url_for('deep') }}" class="icon iconTechnique" >
+                    <img src="static/icons/iconFishingDeep.png" alt="Deep fishing technique" class="iconIMG"></img>
                 </a> 
-                <a href="{{ url_for('sink') }}" >
-                    <img src="static/icons/iconSinkLineFloatFly.png" alt="Sink line technique" class="icon iconTechnique"></img>
+                <a href="{{ url_for('sink') }}" class="icon iconTechnique" >
+                    <img src="static/icons/iconSinkLineFloatFly.png" alt="Sink line technique" class="iconIMG"></img>
                 </a>  
-                <a href="{{ url_for('indicatr') }}" >
-                    <img src="static/icons/iconIndicator.png" alt="Indicator technique" class="icon iconTechnique"></img>
+                <a href="{{ url_for('indicatr') }}" class="icon iconTechnique" >
+                    <img src="static/icons/iconIndicator.png" alt="Indicator technique" class="iconIMG"></img>
                 </a>  
-                <a href="{{ url_for('knots') }}" >
-                    <img src="static/icons/iconKnots.png" alt="Fishing knots" class="icon iconTechnique"></img>
+                <a href="{{ url_for('knots') }}" class="icon iconTechnique" >
+                    <img src="static/icons/iconKnots.png" alt="Fishing knots" class="iconIMG"></img>
                 </a>    
             </div>
-            
-        
 
             <!-- Gear -->
-            <div id="gearB">
-                <a href="{{ url_for('boats') }}" >
-                    <img src="static/icons/iconBoats.png" alt="Boats" class="icon iconGear"></img>
+            <div id="gearB" class="iconStrip">
+                <a href="{{ url_for('boats') }}" class="icon iconGear" >
+                    <img src="static/icons/iconBoats.png" alt="Boats" class="iconIMG"></img>
                 </a>
-                <a href="{{ url_for('motors') }}" >
-                    <img src="static/icons/iconmotors.png" alt="Boat motors" class="icon iconGear"></img>
+                <a href="{{ url_for('motors') }}" class="icon iconGear" >
+                    <img src="static/icons/iconmotors.png" alt="Boat motors" class="iconIMG"></img>
                 </a>  
-                <a href="{{ url_for('rods') }}" >
-                    <img src="static/icons/iconRods.png" alt="Fly rods" class="icon iconGear"></img>
+                <a href="{{ url_for('rods') }}" class="icon iconGear" >
+                    <img src="static/icons/iconRods.png" alt="Fly rods" class="iconIMG"></img>
                 </a>  
-                <a href="{{ url_for('reels') }}" >
-                    <img src="static/icons/iconReels.png" alt="Fly reels" class="icon iconGear"></img>
+                <a href="{{ url_for('reels') }}" class="icon iconGear" >
+                    <img src="static/icons/iconReels.png" alt="Fly reels" class="iconIMG"></img>
                 </a>  
-                <a href="{{ url_for('gear') }}" >
-                    <img src="static/icons/iconOtherGear.png" alt="Other gear" class="icon iconGear"></img>
+                <a href="{{ url_for('gear') }}" class="icon iconGear" >
+                    <img src="static/icons/iconOtherGear.png" alt="Other gear" class="iconIMG"></img>
                 </a>                               
             </div>
-            
         </nav>
+
+
         <div id="omnivore">
-            <img src="static/images/reddotomni.png" id="omnilogo">
-            <p>We built this site! We can build yours!</p>
-            <a href="https://www.omnivorewebdesign.com">www.omnivorewebdesign.com</a>
-
+            <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+            <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
         </div>
+     </main>
     
-    
-    
-    
-
-
-    </main>
-    
-
 </body>
 </html>
