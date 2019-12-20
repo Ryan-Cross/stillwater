@@ -10,35 +10,54 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing for trout mayfly patterns.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Mayfly Patterns on stillwater.ca</title>
+        <title>Mayfly Patterns on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/mayflyPattern.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
                 <h1>Fly Patterns Imitating Mayflies</h1>
-            </div>
-            <div id="contents">
-                    <h2>Mayfly Patterns</h2>
-                    <p>Mayflies are not the most important insect in the lake...until a hatch starts. It's normal to find a mayfly nymph in a stomach sample, maybe even two. Trout take them as they find them which is infrequently around weedy shoals. The hatch of the mayflies is another thing entirely. No hatch comes on as suddenly and with such vigor. There can be nothing then the air is full of mayflies and trout are churning the water to a froth. Just as suddenly it can just stop dead. Be ready in late spring for a life altering experience. </p>
-                    <img src="static/images/mayflyPattern1.JPG" alt="mayflyPattern1" class="patternPic">
-                    <p>This March brown style nymph is all you really need. Classic with good reason. </p>
-                    <img src="static/images/mayflyPattern2.JPG" alt="mayflyPattern2" class="patternPic">
-                    <p>Cast and let the nymph sink slightly then slowly retrieve. The fly will cut a gentle arc to the surface.  </p>
-                    <img src="static/images/mayflyPattern3.JPG" alt="mayflyPattern3" class="patternPic">
-                    <p>There is much written about mayflies and many many patterns to choose from.</p>
-                    <img src="static/images/ads.png" alt="ads" id="ads">
-                    <img src="static/images/mayflyPattern4.JPG" alt="mayflyPattern4" class="patternPic">
-                    <p>Always have a few dries. Even at the peak of the hatch trout prefer to target the nymph but you may prefer to catch them on dries.  </p>
-                    <img src="static/images/mayflyPattern5.JPG" alt="mayflyPattern5" class="patternPic">
-                    <p>Emerger styles can be a more effective dry fly.  </p>
+                <h2>Mayfly Patterns: be prepared</h2>
+                <p>Mayflies are not the most important insect in the lake...until a hatch starts. It's normal to find a mayfly nymph in a stomach sample, maybe even two. Trout take them as they find them which is infrequently around weedy shoals. The hatch of the mayflies is another thing entirely. No hatch comes on as suddenly and with such vigor. There can be nothing then the air is a thick fog of mayflies and trout are churning the water to a froth. Just as suddenly it can just stop dead. Be ready in late spring for a life altering experience. </p>
+                <div class="snapsdiv">
+                    <img src="static/images/mayflyPattern1.JPG" alt="mayflyPattern1" class="snaps righttilt">
+                </div>
+                <p>This March brown style nymph is all you really need. Classic with good reason. </p>
+                <div class="snapsdiv">
+                    <img src="static/images/mayflyPattern2.JPG" alt="mayflyPattern2" class="snaps lefttilt">
+                </div>
+                <p>Cast and let the nymph sink slightly then slowly retrieve. The fly will cut a gentle arc to the surface.  </p>
+                <div class="snapsdiv">
+                    <img src="static/images/mayflyPattern3.JPG" alt="mayflyPattern3" class="snaps righttilt">
+                </div>
+                <p>There is much written about mayflies and many many patterns to choose from.</p>
+                <div class="snapsdiv">
+                    <img src="static/images/mayflyPattern4.JPG" alt="mayflyPattern4" class="snaps lefttilt">
+                </div>
+                <p>Always have a few dries. Even at the peak of the hatch trout prefer to target the nymph but you may prefer to catch them on dries.  </p>
+                <div class="snapsdiv">
+                    <img src="static/images/mayflyPattern5.JPG" alt="mayflyPattern5" class="snaps righttilt">
+                </div>
+                <p>Emerger styles can be a more effective dry fly.  </p>
                        
-            </div>
-        </div>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>

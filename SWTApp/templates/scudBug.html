@@ -10,29 +10,34 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing for trout understand scuds.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Scuds on stillwater.ca</title>
+        <title>Scuds on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/scudBug.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+
+            <section>
                 <h1>Scuds: Powerful Trout Nutrition</h1>
-            </div>
-            <div id="contents">
                 <h2>In a Lake Scuds Cause Trout to Put On The Beef!</h2>
-                <p>Scuds inhabit freshwater lakes that are alkaline enough to support them. They are often called shrimp but they are actually an amphipod. When they’re available the humble scuds are a game changer. Trout that are feeding on scuds will be in excellent physical condition. With a good scud population expect thick shouldered, healthy fish. When available they are probably the most important food source for trout and that makes them important to you as an angler! Let’s look at scuds and see how best to imitate them.</p> 
+                <p>Scuds inhabit freshwater lakes that are alkaline enough to support them. They are often called shrimp but they are actually an amphipod. The humble scuds are a game changer. Trout that are feeding on scuds will be in excellent physical condition. With a good scud population expect thick shouldered, healthy fish. When available they are probably the most important food source for trout and that makes them important to you as an angler! Let’s look at scuds and see how best to imitate them.</p>
 
                 <h2>Are There Scuds in the Lake?</h2>
                 <p>Take a look in the shallow water when you launch your boat. Turn over a rock or piece of wood. If there are scuds in the lake you’ll disturb a few and catch them scurrying back into cover.</p> 
 
-                <img src="static/images/scud.png" alt="scud" id="scud">
+
+                <div class="snapsdiv">
+                    <img src="static/images/scud.png" alt="scud" class="snaps lefttilt">
+                </div>
 
                 <h2>There are two types of scuds: Hyalella and Gammarus</h2>
                 <p>They look similar, the important difference is in size. Tiny Hyalella is basically plankton, not much bigger than a mustard seed. Gammarus is the larger ranging in size up to about the size of a sunflower seed.</p> 
@@ -46,22 +51,30 @@
                 <h2>Terrifying Parasites!</h2>
                 <p>Some scuds will have an orange dot under the carapace, it’s a real hotspot on the otherwise drab amphipod. This dot is a parasite infecting the scud. Don’t panic it’s no harm to humans.</p> 
 
-                <img src="static/images/scudfly.png" alt="scudfly" id="scudfly">
+                <div class="snapsdiv">
+                    <img src="static/images/scudfly.png" alt="scudfly" class="snaps righttilt">
+                </div>
 
-                <p>Hotspots are a great strategy to make a fly stand out subtly and it’s used in many fly designs. Sometimes drab brown nymph patterns are tied with a brightly colored bead or the head will be tied with a hot orange thread. The pattern retains it’s resemblance to the natural but the extra shot of color increases the visibility. That bit of bright color makes that fly stand out from the naturals, otherwise its sort of a needle in a stack of needles.</p> 
+                <p>Hotspots are a great strategy to make a fly subtly stand out and it’s used in many fly designs. Sometimes drab brown nymph patterns are tied with a brightly colored bead or the head will be tied with a hot orange thread. The pattern retains it’s resemblance to the natural but the extra shot of color increases the visibility. That bit of bright color makes that fly stand out from the naturals, otherwise its sort of a needle in a stack of needles.</p>
 
                 <p>With the infected scud we get an RSVP invitation to put an orange hotspot on our pattern. Stay green but put that subtle orange spot in the middle of the fly. Now you have a fly that stays true to the natural it’s imitating but also stands out from the background of green lake bottom.</p> 
 
-                <img src="static/images/ads.png" alt="ads" id="ads">
-
-
                 <h2>The Random Motion of Scuds</h2>
-                <p>Scuds are found all over the lake on the bottom at any depth. They tend to stick to small scale cover like dead plants, wood bits, whatever is around. Scuds crawl around milling through all the mung at the bottom of the lake. These amphipods do have the ability to swim and when they do it’s short distances covered in a  plodding erratic fashion. Lots of pauses and slow progress. </p> 
+                <p>Scuds are found all over the lake on the bottom at any depth. They tend to stick to small scale cover like dead plants, wood bits, whatever is around. Scuds crawl around milling through all the mung at the bottom of the lake. These amphipods have the ability to swim and when they do it’s short distances covered in a  plodding erratic fashion. Lots of pauses and slow progress. </p>
 
 
                 <h2>Scuds offer Trout Consistent Year Round Food</h2>
                 <p>Scuds don’t have a seasonal availability they are just always around. On the hottest day of summer and under the ice there’s scuds. That’s why they factor so heavily into trout quality, at any time of year, every corner of the lake will have scuds. For the angler it means that a scud pattern is basically always and everywhere a good bet. If there is a downside to fishing scuds it would be that without a hatch event the trout are never concentrated in any one area feeding on them. It’s like a steady slow burn.</p> 
-            </div>
-        </div>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>
     </body>
 </html>   

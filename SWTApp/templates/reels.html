@@ -10,29 +10,33 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Best reels to use when fly fishing for trout.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Fly Reels on stillwater.ca</title>
+        <title>Fly Reels on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/reels.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
                 <h1>Fly Reels for Stillwater Fly Fishing</h1>
-            </div>
-            <div id="contents">
-                <h2>Fly Reels for Lake Fishing</h2>
+                <h2>The least important, important piece of tackle</h2>
                 <p>Which reel do you need? Which do you want? Which can you afford? And what the hell is Rulon anyway? Let’s dive into the selection of fly fishing reels and try to make sense of the choices.</p>
                 
-                <img src="static/images/hardyMM.png" alt="hardyMM" id="hardyMM">
+
+                <div class="snapsdiv">
+                    <img src="static/images/hardyMM.png" alt="hardyMM" class="snaps">
+                </div>
                 
                 <h2>Fly Reels hold line</h2>
-                <p>Reels at their most fundamental are for storing unused line. It’s got to hold all the line: the leader, line and backing. Reels are built in different sizes to handle different line weights. The number ten for a tarpon rig is as big as wheelbarrow tire, that delicate number three is like a fifty cent piece. Make sure the reel’s manufacturer spec includess the line weight you need to match your rod.</p>
+                <p>Reels at their most fundamental are for storing unused line. It’s got to hold all the line: the leader, line and backing. Reels are built in different sizes to handle different line weights. The number ten for a tarpon rig is as big as wheelbarrow tire, that delicate number three is like a fifty cent piece. Make sure the reel manufacturer’s specification claims it will hold the line weight you need for your rod.</p>
                 
                 
                 <h2>Fly Reel Arbors</h2>
@@ -40,7 +44,6 @@
                 <p>The actual arbor is only half the picture as far as the line is concerned because it lies on top of the backing. A small arbor reel with a high line capacity holding lots of backing will have a larger effective arbor.</p>
                 <p>Arbor is not a game changer either way but suffice to say too small arbors will result in anemic retrieve rates and kinky flylines. Most important is probably your preference.</p>
 
-                <img src="static/images/ads.png" alt="ads" id="ads">
                 
                 <h2>Slow down a running fish</h2>
                 <p>When you hook a fish and it takes a run you want to check the run and pressure the fish. Your reel is going to need some brakes. Theres two ways this braking force is applied.</p>
@@ -50,7 +53,10 @@
                 <p>Why would you want a drag? Some large gamefish (tarpon, salmon) are so strong palming the reel is impossible, the sustained runs will burn your hand. Likewise very large fish may tire an angler and being able to take that second hand off the reel and use both to lean into the rod can help. No trout has this capacity.</p>
                 <p>The tradeoff isn’t worth it in my view, theres little to be gained and much to lose. I tend to use  simple click pawl reels.</p>
                 
-                <img src="static/images/clickPawl.png" alt="clickPawl" id="clickPawl">
+
+                <div class="snapsdiv">
+                    <img src="static/images/clickPawl.png" alt="clickPawl" class="snaps">
+                </div>
 
                 <h2>Click and Pawl</h2>
                 <p>Without some kind of resistance every little tug on the reel will result in a freewheel and the line will backlash and tangle. If you have a drag it can be the gentle resistance that you need. If you don’t have a drag you should have a robust click and pawl. The reel has a sprocket on the spool and as the reel turns that sprocket flips the sring loaded pawls. It results in a clicking noise and gently slows the reel. Most click and pawl reels have an adjust that slightly cranks the tension on the click spring, resulting in a louder click and a little more resistance.</p>
@@ -59,7 +65,7 @@
                 <h2>Spare Spools</h2>
                 <p>You need flexibility. On any given day you might be best using a floating line, a sink tip, or any grade of sinking line. Rather than carrying 6 rods take one or two and have spare spools for the reels. The spool can be exchanged in a minute or two and you’re back fishing.</p>
                  
-                <p>I recommend against buying any reel you can’t get a spare spool for. In my boat I carry two rods, each rod has two spools. I have a full sink line for deep lining chironomids, a moderate sink slime line for probing shoals, a floating line with a normal leader for standard nymphing or dries and a heavier float line with in indicator rig leader. At any given moment two of these methods are ready and the other two are only two minutes away via a spool change.</p>
+                <p>I recommend against buying any reel you can’t get a spare spool for. In my boat I carry two rods, each rod has two spools. I have a full sink line for deep lining chironomids, a moderate sink slime line for probing shoals, a floating line with a normal leader for standard nymphing or dries and a heavier float line with an indicator rig leader. At any given moment two of these methods are ready and the other two are only two minutes away via a spool change.</p>
                 
                 
                 <h2>Quality at every price point</h2>
@@ -67,5 +73,14 @@
                 
                 <p>If you want a drag beware cheaper models, getting that right requires some engineering. You will have to do your research and be prepared to pay a little more for the quality.</p>
                 
-            </div>
-        </div>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>

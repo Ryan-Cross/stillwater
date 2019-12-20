@@ -10,41 +10,41 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing for trout understand dragonflies.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Dragons on stillwater.ca</title>
+        <title>Dragons on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/dragonBug.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
                 <h1>Dragonflies: Big bait for big fish</h1>
-            </div>
-            <div id="contents">
                 <h2>Dragonflies: a big meal for a trout</h2>
 
                 <p>Dragonflies are a very important prey item for trout in a lake. You’re going to want a good understanding of this food item so you can imitate the nymph and catch trout that are feeding on them. Here are some important things you should know about dragonflies.</p> 
 
                 <h2>The Adults Don’t Matter</h2>
-                <p>The only dragonflies regularly eat are nymphal forms in the water so we can forget about the adults.</p> 
+                <p>The only dragonflies trout regularly eat are nymphal forms in the water so we can forget about the adults.</p>
 
                 <h2>Size</h2>
                 <p>Dragonflies are one of the biggest invertebrates in the lake. Nymphs feed and grow for several years and when the underwater part of their life cycle is finished then can be over 3 inches(75mm) long. A big bodied nymph like that represents a lot of energy for the trout. We don’t always want to represent the largest nymphs but we need an understanding of the size range when we choose flies.</p> 
 
-                <img src="static/images/dragons.png" alt="dragons" id="dragons">
-
+                <div class="snapsdiv">
+                    <img src="static/images/dragons.png" alt="dragonflies" class="snaps lefttilt">
+                </div>
                 <h2>Year Round Availability</h2>
                 <p>Trout eat dragonflies all year. Many invertebrates are seasonally available to trout. Some invertebrates only expose themselves in a way trout can capitalize on occasionally. Dragonfly nymphs although secretive, are always around. </p> 
 
                 <h2>Increased Summer Availability</h2>
                 <p>Trout eat dragonflies whenever they see them but they will see a few more during the shoreward migration of the nymphs. In early summer those nymphs that have matured will start to make their way to the shoreline. They’re leaving the water for the next phase of their life as flying adults. Once they reach the edge of the water they crawl up a piece of vegetation where they will split and the adult emerges. Whenever they move dragonfly nymphs are exposed to trout and this migration is their biggest move. How will you know this is happening? Well, before it happens there are no adult dragonflies around. When the adults first start showing up you might notice the nymphs crawling up a cattail as you launch your boat or see them more regularly in the shallow waters. Be a good observer and watch for this phenomenon in early summer.</p> 
-
-                <img src="static/images/ads.png" alt="ads" id="ads">
 
                 <h2>Two important types: Darners and Gomphus</h2>
                 <p>You don’t need any Latin here! For an angler its enough to know that there are two general types of dragonfly nymph. They look and move differently.</p> 
@@ -58,7 +58,16 @@
 
                 <h2>After a moult Nymphs are A Dangerous Green Color.</h2>
                 <p> As they grow dragons have to shed their exoskeleton. The old shell is well camouflaged but the new shell is often a bold lime green color to start. Eventually the shell will color up and the dragon will be well concealed but until then they in danger. Having a few lime green variants is a good idea.</p>
-            </div>
-        </div>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>
     </body>
 </html>  

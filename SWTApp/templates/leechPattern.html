@@ -10,37 +10,54 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing for trout leech patterns.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Leech Patterns on stillwater.ca</title>
+        <title>Leech Patterns on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/leechPattern.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
+
                 <h1>Fly Patterns Imitating Leeches</h1>
-            </div>
-            <div id="contents">
-                    <h2>Leech Patterns</h2>
-                    <p>Trout can count on leeches. Never a big hatch or massive emergence, but theres always a few leeches around. It's really common to find a leech inside a trout. How do you imitate a leech? Really it's one of the easier naturals to mimic. The color range includes black, brown, olive and maroon but black and olive are most common. The body needs to be that longish shape of course. If their is a problem its imitating the undulating swimming motion of the leech. A soft hair or hackle body will give it some life and a bead on one end  or the other will make the movement erratic causing the fly to rise and dive as you retrieve.</p>
-                    <img src="static/images/leechPattern1.JPG" alt="leechPattern1" class="patternPic">
-                    <p>This is a micro M.O.A.L (mother of all leeches) leech pattern. Borrowed from steelheading and scaled down for trout its a great pattern. The hook is an octopus style connected to a shank with bead by some gelspun line. The body is made by spinning dubbing into the gel spun. The pattern is soft and furry and limp. Retrieving this fly will cause it to rise and pausing will allow the beaded head to fall all the while the soft body follows the lead. </p>
-                    <img src="static/images/leechPattern2.JPG" alt="leechPattern2" class="patternPic">
-                    <p>Micro leeches fished under an indicator are always a good bet when there is no other hatch.</p>
-                    <img src="static/images/leechPattern3.JPG" alt="leechPattern3" class="patternPic">
-                    <p>really small micro leeches work better than big ones.</p>
-                    <img src="static/images/ads.png" alt="ads" id="ads">
-                    <img src="static/images/leechPattern4.JPG" alt="leechPattern4" class="patternPic">
-                    <p> This pattern has a bead on the stinger hook and a hook clipped at the bend for a body. The two pieces are connected by gelspun.</p>
-                    <img src="static/images/leechPattern5.JPG" alt="leechPattern5" class="patternPic">
-                    <p>If you're packing a survival kit for a bushplane a few rootbeer microleeches can keep you alive until the search party finds you.</p>
-                    
-                    
-                       
-            </div>
-        </div>
+                <h2>Leech Patterns: Undulating movement</h2>
+                <p>Trout can count on leeches. Never a big hatch or massive emergence, but theres always a few leeches around. It's really common to find a leech inside a trout. How do you imitate a leech? Really it's one of the easier naturals to mimic. The color range includes black, brown, olive and maroon but black and olive are most common. The body needs to be that longish shape of course. If there is a problem its imitating the undulating swimming motion of the leech. A soft hair or hackle body will give it some life and a bead on one end  or the other will make the movement erratic causing the fly to rise and dive as you retrieve.</p>
+                <div class="snapsdiv">
+                    <img src="static/images/leechPattern1.JPG" alt="leechPattern1"class="snaps lefttilt">
+                </div>
+                <p>This is a micro M.O.A.L (mother of all leeches) leech pattern. Borrowed from steelheading and scaled down for trout its a great pattern. The hook is an octopus style connected to a shank with bead by some gelspun line. The body is made by spinning dubbing into the gel spun. The pattern is soft and furry and limp. Retrieving this fly will cause it to rise and pausing will allow the beaded head to fall all the while the soft body follows the lead. </p>
+                <div class="snapsdiv">
+                    <img src="static/images/leechPattern2.JPG" alt="leechPattern2"class="snaps righttilt">
+                </div>
+                <p>Micro leeches fished under an indicator are always a good bet when there is no other hatch.</p>
+                <div class="snapsdiv">
+                    <img src="static/images/leechPattern3.JPG" alt="leechPattern3"class="snaps lefttilt">
+                </div>
+                <p>Really small micro leeches work better than big ones.</p>
+                <div class="snapsdiv">
+                    <img src="static/images/leechPattern4.JPG" alt="leechPattern4"class="snaps righttilt">
+                </div>
+                <p> This pattern has a bead on the stinger hook and a hook clipped at the bend for a body. The two pieces are connected by gelspun.</p>
+                <div class="snapsdiv">
+                    <img src="static/images/leechPattern5.JPG" alt="leechPattern5"class="snaps lefttilt">
+                </div>
+                <p>If you're packing a survival kit for a bushplane a few rootbeer microleeches can keep you alive until the search party finds you.</p>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>

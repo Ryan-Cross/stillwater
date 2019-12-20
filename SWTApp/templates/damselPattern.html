@@ -10,34 +10,49 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing for trout damsel patterns.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Damsel fly Patterns on stillwater.ca</title>
+        <title>Damsel fly Patterns on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/damselPattern.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
                 <h1>Fly Patterns Imitating Damsels</h1>
-            </div>
-            <div id="contents">
-                    <h2>Damsel fly Patterns</h2>
-                    <p>Damsels are a staple food for trout and they also have a significant emergance in latespring/early summer. A big damsel nymph is an inch long and very slender. Big eyes and a tail with three gill fronds are defining features. The color will be olive, brown or tan. The movement of the damsel nymph is a lateral undulating swim pretty much like an alligator. It's a hard motion to imitate exactly but you don't need to match exactly. Damsels will be found around weedbeds. They're stealthy but when they decide to trade places and swim they are more exposed. It's common to see a damsel swim by your boat while you're fishing. If you start to see lots of swimming damsels and they are climbing your anchor ropes then there might be an emergence happening. Damsels will be coming in waves headed for shallow water where they can find a reed or thule to climb so they can change into the first adult form. The first form is a teneral which is a green adult. At this stage the flies are clumsy and many will be blown off their perch and drown. Trout will pick off these victims as they find them and you can imitate that event. The real game however is tying on a matching damsel nymph and casting and retrieving. Fishing near reeds or weedbeds is the ticket. Being on a lake with a damsel emergence doesn't happen often but it's so fun you want to be prepared to capitolize!</p>
-                    <img src="static/images/damselPattern1.JPG" alt="damselPattern1" class="patternPic">
-                    <p> This pattern sinks very slowly and with it's free swinging tail it can imitate the swimming motion of the natural. </p>
-                    <img src="static/images/damselPattern2.JPG" alt="damselPattern2" class="patternPic">
-                    <p>Olive, brown and tan are the important colors.</p>
-                    <img src="static/images/ads.png" alt="ads" id="ads">
-                    <img src="static/images/damselPattern3.JPG" alt="damselPattern3" class="patternPic">
-                    <p>This pattern has a stinger hook in the tail and a hook clipped at the bend as a head. </p>
-                    <img src="static/images/damselPattern4.JPG" alt="damselPattern4" class="patternPic">
-                    <p>The body of this pattern is made of tiny glass beads on a piece of mono. The tail fronds are made up of the working and running ends of a blood knot. </p>
-                    
-                       
-            </div>
-        </div>
+                <h2>Damsel Patterns: Mimic Movement</h2>
+                <p>Damsels are a staple food for trout and they also have a significant emergance in latespring/early summer. A big damsel nymph is an inch long and very slender. Big eyes and a tail with three gill fronds are defining features. The color will be olive, brown or tan. The movement of the damsel nymph is a lateral undulating swim pretty much like an alligator. It's a hard motion to imitate exactly but you don't need to match exactly. Damsels will be found around weedbeds. They're stealthy but when they decide to trade places and swim they are more exposed. It's common to see a damsel swim by your boat while you're fishing. If you start to see lots of swimming damsels and they are climbing your anchor ropes then there might be an emergence happening. Damsels will be coming in waves headed for shallow water where they can find a reed or thule to climb so they can change into the first adult form. The first form is a teneral which is a green adult. At this stage the flies are clumsy and many will be blown off their perch and drown. Trout will pick off these victims as they find them and you can imitate that event. The real game however is tying on a matching damsel nymph and casting and retrieving. Fishing near reeds or weedbeds is the ticket. Being on a lake with a damsel emergence doesn't happen often but it's so fun you want to be prepared to capitolize!</p>
+                <div class="snapsdiv">
+                    <img src="static/images/damselPattern1.JPG" alt="damselPattern1" class="snaps lefttilt">
+                </div>
+                <p> This pattern sinks very slowly and with it's free swinging tail it can imitate the swimming motion of the natural. </p>
+                <div class="snapsdiv">
+                    <img src="static/images/damselPattern2.JPG" alt="damselPattern2" class="snaps righttilt">
+                </div>
+                <p>Olive, brown and tan are the important colors.</p>
+                <div class="snapsdiv">
+                    <img src="static/images/damselPattern3.JPG" alt="damselPattern3" class="snaps lefttilt">
+                </div>
+                <p>This pattern has a stinger hook in the tail and a hook clipped at the bend as a head. </p>
+                <div class="snapsdiv">
+                    <img src="static/images/damselPattern4.JPG" alt="damselPattern4" class="snaps righttilt">
+                </div>
+                <p>The body of this pattern is made of tiny glass beads on a piece of mono. The tail fronds are made up of the working and running ends of a blood knot. </p>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>

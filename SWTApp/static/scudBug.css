@@ -49,86 +49,185 @@ table {
 /* END MEYERWEB RESET @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 
-/* mobile styling */
-body{
-    background-image: url("images/lakebed.jpg");
-        background-position: center;
-        background-size : 100% 100%;
-        background-repeat: no-repeat;
+/* general styling */
+html, .root {
+  font-size: 20px;
+  line-height: 1.4;
+}
+main{
+    width: 100vw;
+    /*ctrl + space color picker*/
+    background-color:   rgba(124,167,77,0.84);
+    padding-bottom: 1rem;
 }
 
-#wholeContainer{
-    display: grid;
-    height: 2600px;
-    background: rgb(196, 117, 28);
-    grid-template-rows: 100px 70px 1fr;    
+/* logo */
+ #logodiv{
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
+ }
+#logo{
+    height: 25vw;
+    max-height: available;
+    margin: 1vw 0 1vw 0;
+}
+ /*text content*/
+
+section{
+    background-color:#d2d0c4;
+    max-width: 70%;
+    margin: 2rem auto 2rem auto;
+    padding: 2rem 0 2rem 0;
 }
 
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;    
-    text-shadow: 2px 2px 2px rgb(41, 39, 39);
-    color: black;
-    text-align: center;
+#measure{
+    /*color: red;*/
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;    
-    text-shadow: 1px 1px 1px rgb(41, 39, 39);
-    color: black;
-    text-align: center;
-    background: rgb(238, 229, 229);
+p, h1, h2{
+    max-width: 50%;
 }
 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;      
-    color: black;    
-    padding: 10px;
-    background: rgb(238, 229, 229);
+    margin: 0 auto 1rem auto;
 }
 
-#Logo{
-    display: grid;
-    height: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    background: rgb(235, 231, 231, 0.3);
-    border-radius: 50%;
-    border: 5px solid rgb(202, 190, 18); 
-    place-items: center;  
-    
+i{
+    font-style: italic;
 }
-#scud{
-    max-width: 90%;
-    /*padding: 20px;*/
-    display: block;
-    margin: 0 auto;
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin: 2rem auto 1rem auto;
 }
-#scudfly{
-    max-width: 90%;
-    /*padding: 20px;*/
-    display: block;
-    margin: 0 auto;
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    /*max-width: 30rem;*/
+    margin: 2rem auto .5rem auto;
+}
+#facebookicon{
+    height: 1.4rem;
+    color: #3b5998;
+    margin-left: 1rem;
 }
 
-
-#ads{
-    max-height: 150px;
-    padding: 20px;
-    display: block;
-    margin: 0 auto;
+/*thephotographs*/
+.snapsdiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
-#swtLogo{
-    max-height: 200px;
+.snaps{
+    width: 60%;
+    box-sizing: border-box;
+    border: .5vw solid white;
+    box-shadow: 0px 1vw 1vw rgba(0, 0, 0, 2);
 }
-/*  END mobile styling */
+.lefttilt{
+    transform: rotate(-1deg);
+}
+.righttilt{
+    transform: rotate(1deg);
+}
 
-@media screen and (min-width: 975px){
-    #wholeContainer{
-        margin: 10px 30%;
-        grid-template-rows: 180px 70px 20fr;
-    } 
-    #Logo{
-        height: 150px;
-    }   
+/*home button nav*/
+#homelink{
+    display: flex;
+    justify-content: center;
+}
+.homeicon{
+    width: 16vw;
+    margin-bottom: 1rem;
+}
+
+/*Adverts*/
+#omnivore{
+    width: 100vw;
+    background-color:white;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: blue;
+}
+.omnilink{
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 18px;*/
+    /*line-height: 23px;*/
+    max-width: 80%;
+}
+#omnilogo{
+    height: 8vw;
+    min-height: 40px;
+}
+/*  END default monitor styling */
+
+      /*$$$$$$$$$$$$$$$$$ MEDIA QUERIES  $$$$$$$$$$$*/
+
+@media screen and  (max-width:1500px) {
+    main{
+        /*background-color:  red;*/
+    }
+    p, h1, h2{
+    max-width: 70%;
+    }
+    #logo{
+        height: 35vw;
+    }
+}
+
+@media screen and (max-width:999px) {
+    main{
+        /*background-color:  aqua;*/
+    }
+    #logo{
+        height: 45vw;
+    }
+    .snaps{
+        width: 70%;
+    }
+    section{
+        max-width: 90%;
+        margin: 1rem auto 1rem auto;
+        padding: 1rem 0 1rem 0;
+    }
+    p, h1, h2{
+        max-width: 80%;
+    }
+    h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin: 1rem auto .7rem auto;
+    }
+    h2{
+        font-size: 1.4rem;
+        /*max-width: 30rem;*/
+        margin: .8rem auto .5rem auto;
+    }
+    #omnilogo{
+        height: 12vw;
+        min-height: 40px;
+    }
+    .homeicon{
+        width: 22vw;
+    }
+}
+@media screen and (max-width:500px){
+    main{
+        /*background-color: coral;*/
+    }
+    html, .root {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    #logo{
+        height: 55vw;
+    }
+    #omnivore{
+        flex-flow: column;
+    }
 }

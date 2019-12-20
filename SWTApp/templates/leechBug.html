@@ -10,39 +10,42 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing for trout understand leeches.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Leeches on stillwater.ca</title>
+        <title>Leeches on stillwatertrout.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/leechBug.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
                 <h1>Leeches: A big bite for trout</h1>
-            </div>
-            <div id="contents">
                 <h2>Leeches are an Important Trout Food</h2>
-                <p>Most good fishing lakes have leeches. You’ve been warned, don your speedo at your own risk! Trout don’t mind swimming with leeches, on the contrary they it. I’ve never caught a trout with a leech attached to it. I’ve caught many trout with a leech in their stomach on the other hand! Lets take a look at the leech and see how the angler can imitate them with the fly.</p> 
+                <p>Most good fishing lakes have leeches. You’ve been warned, don your speedo at your own risk! Trout don’t mind swimming with leeches, they love it! I’ve never caught a trout with a leech attached to it.  On the other hand I’ve caught many trout with a leech in it's stomach! Lets take a look at the leech and see how the angler can imitate them with the fly.</p>
 
                 <h2>Leeches Appearance</h2>
                 <p>Well lets get this out of the way, they’re gross. Maybe I’m scarred from getting one or two on a sandaled foot in the boat launch over the years. Leeches are long, tapered on the end and semi flat. Typical colors are jet black, mottled olive and brown. If you see one on a rock or pester it, it may contract or ball up but they stretch out when they’re relaxed or swimming. Leeches swim slowly and deliberately with a characteristic undulation.</p> 
-                
-                <img src="static/images/leech1.png" alt="leech1" id="leech1">
+
+                <div class="snapsdiv">
+                    <img src="static/images/leech1.png" alt="leech1" class="snaps lefttilt">
+                </div>
 
                 <h2>Leeches get Big but it’s the Smaller Ones That Fish Eat More Often</h2>
                 <p>Leeches come in sizes from tiny to alarming.The terror in the boat launch can be 8 inches(20cm) long. Trout will eat any size of leech but over time I’ve found that medium sized leeches( 2.5” or 6cm) are more likely to be found in the stomach of a trout.</p> 
 
-                <img src="static/images/ads.png" alt="ads" id="ads">
-
                 <h2>That undulating motion is key</h2>
                 <p>Swimming leeches undulate sinusoidally as they swim. Unlike many lake invertebrates they make good progress and maintain their direction. Any opportunity to see this motion will inform your fly tying/selection. Flies with soft flowy materials and a heavier head will work nicely. As the fly is retrieved a short distance the fly lurches upward, when the tension is released the weight will pull the head down. In both directions the flowing body will trail the head and give that undulation.</p> 
 
-                <img src="static/images/leech2.png" alt="leech2" id="leech2">
+                <div class="snapsdiv">
+                    <img src="static/images/leech2.png" alt="leech2" class="snaps righttilt">
+                </div>
 
                 <h2>Leeches are Always Available</h2>
                 <p>There is no season for leeches and no hatch, they’re just always around. Trout will take them whenever they find them swimming through the water column. When there is no hatch leeches are a great bet.</p>  
@@ -50,11 +53,22 @@
                 <h2>Leeches are a Great Searching Pattern</h2>
                 <p>When you first arrive at a new lake you don’t know the lay of the land. Where are the shoals and weed beds? Are there any hatches coming off? Until you find out you’ll have to explore. Trolling a leech can be a great way to find fish and fishing them cast and retrieve will likewise probe a location. Leech patterns are bigger than many other imitations and that helps when you’re gambling on being within range of a trout.</p> 
 
-                <img src="static/images/leech3.png" alt="leech3" id="leech3">
+                <div class="snapsdiv">
+                    <img src="static/images/leech3.png" alt="leech3" class="snaps ">
+                </div>
 
                 <h2>Any depth will work</h2>
                 <p>When leeches move they don’t necessarily prefer the bottom like some other trout prey items. You can fish them effectively at any depth. When you’re fishing it’s normal to see a leech swimming along in the topwater.</p> 
-            </div>
-        </div>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>
     </body>
 </html>    

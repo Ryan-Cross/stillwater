@@ -10,27 +10,30 @@
 
             gtag('config', 'UA-148952760-1');
         </script>
+        <meta name="Description" content="Fly fishing deep for trout.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Fishing deep on stillwater.ca</title>
         <link rel="stylesheet" type="text/css" media="screen" href="static/deep.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i&display=swap" rel="stylesheet">
+        {#    usage of these fonts as :    font-family: 'Bebas Neue', cursive;  font-family: 'Roboto', sans-serif; #}
+        <link rel="icon" type="image/png" href="static/troutico.ico">
     </head>
     <body>
-        <div id="wholeContainer">
-            <div>
-                <img src="static/icons/SWTlogoRework.png" alt="Logo" id="Logo">
-            </div>
-            <div id="header">
+        <main>
+            <figure id="logodiv">
+                <img src="static/images/SWTlogoV2finalSVG.svg" alt="stillwatertrout.ca logo" id="logo">
+            </figure>
+            <section>
                 <h1>Fishing chironomids on a full sink line</h1>
-            </div>
-            <div id="contents">
-                <h2>Chironomid fishing with the full sink line</h2>
+                <h2>You can't afford to miss out on this!</h2>
                 <p>Chironomids fished under an indicator are probably the most effective method to fish a lake. There’s a limitation to the technique however and it’s depth. With a release indicator you can fish any length of leader you can effectively handle. At 15 feet its fine but around 25 feet it becomes difficult. The long leader gets harder to turn over and it’s prone to knots. Once the gear is laid out you have to wait for it to sink to depth. Even with a bead head and a swivel 25 feet of mono sinks painfully slowly. What do we do? We’re going to a full sink line.</p> 
 
-                <img src="static/images/deepBoat.png" alt="deepBoat" id="deepBoat">
-
+                <div class="snapsdiv">
+                    <img src="static/images/deepBoat.png" alt="deepBoat" class="snaps">
+                </div>
                 <h2>Straight Down</h2>
                 <p>If its never occurred to you to fish deep with a fly then this will be an awakening. The fish go there and  feed is found there as well. I’ve caught trout on chironomids at all depths up to 75 feet. I’ve never tried deeper only because that’s the full length of my anchor lines. </p> 
 
@@ -51,11 +54,11 @@
 
                 <p>Your sounder can give you a number for depth but a tailor fit length is better. To measure the depth I use a depth rig as shown in the illustration. A foot long piece of 25 pound mono connects a 1 ounce weight and a cork. There is a mono loop knot at the top of the cork. A bead will prevent the loop pulling through the cork. Make yourself one, I find they work best with corks from a good red.</p> 
 
-                <img src="static/images/deepRig.png" alt="deepRig" id="deepRig">
-
+                <div class="snapsdiv">
+                    <img src="static/images/deepRig.png" alt="deepRig" class="smallsnaps">
+                </div>
                 <p>Here is how it works. Your sink line has a short 3 foot leader tied with a chironomid. Pass the fly through the loop and stab it securely into the bottom of the corky. Raise your rod and crane the depth rig over the side. Hold your rod level with the water and let out line until you feel the weight hit the bottom. Reel up until the rod begins to bend and take one more turn. Right now the depth is set! You are holding the rod level and the fly is exactly where it should be, just above the bottom. If you don’t turn the reel the measurement will be preserved. You have to take the cork off of course, so hand pull the line in and remove the depth rig.</p> 
-                
-                <img src="static/images/ads.png" alt="ads" id="ads">
+
 
                 <p>You can’t send the sink line straight down as it will foul. The idea is to make a short cast and let it swing into position like a pendulum. You really don’t need much of a cast at all just flip it out twenty feet and that should be enough to keep it out of trouble. Be careful not to tax your rod by loading up a big cast with a heavy sink tip.</p> 
 
@@ -64,16 +67,30 @@
                 <h2>Preserving the setting</h2>
                 <p>After setting the depth it’s preserved on the reel. If you don’t turn the spool, the line length is consistent and so will be your fishing depth. The setting is lost when you catch a fish and you’ll be forced to repeat the procedure to reset your depth with the depth rig. Not a big deal.</p> 
 
-                <img src="static/images/deepLine.png" alt="deepLine" id="deepLine">
-
+                <div class="snapsdiv">
+                    <img src="static/images/deepLine.png" alt="deepLine" class="snaps">
+                </div>
                 <p>When I started using this technique I fell in love and it’s something I do regularly. The constant resetting of depth is a source of pain so eventually I came up with a simple way to reset the depth. I have a spool for my reel specifically for this deep line method. The flyline is a level taper shooting line and I use a really heavy sink tip. </p> 
-                <img src="static/images/deepMarks.png" alt="deepMarks" id="deepMarks">
-                <img src="static/images/deepMarksPic.png" alt="deepMarksPic" id="deepMarksPic">
 
+                <div class="snapsdiv">
+                    <img src="static/images/deepMarks.png" alt="deepMarks" class="snaps">
+                </div>
+                <div class="snapsdiv">
+                    <img src="static/images/deepMarksPic.png" alt="deepMarksPic" class="snaps">
+                </div>
                 <p>On the shooting line I have made marks for depth. I make the first line with twenty five feet of line measured as coming out of the tip guide. I mark the line where I will read it around the first guide. I proceed to mark 5 foot increments up to about 75 feet.</p> 
 
                 <p>When I arrive at a new spot I anchor the boat and set the depth with the depth setting rig. I glance at the running line and notice the depth mark closest to the first guide and it’s relative position to that guide. After a fish all that’s needed to hit the same depth is to pull line from the reel and align that mark.  Your boat hasn’t moved and the bottom hasn’t either, toss the tip out there and it will swing down to the correct depth.</p> 
-            </div>
-        </div>
+            </section>
+            <nav id="homelink">
+                <a href="{{ url_for('index')}}" class="homeicon">
+                    <img src="static/icons/SWThomebutton.png" class="homeicon" alt="home button link" >
+                </a>
+            </nav>
+            <aside id="omnivore">
+                <img src="static/images/reddotomni.png" alt="web masters logo" id="omnilogo">
+                <a href="https://www.omnivorewebdesign.com" class="omnilink"  target="_blank" rel="noopener">www.omnivorewebdesign.com</a>
+            </aside>
+        </main>
     </body>
 </html>   

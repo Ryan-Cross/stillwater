@@ -113,7 +113,7 @@ def motors():
 
 @app.route('/rods')
 def rods():
-    return render_template("rods.htm")
+    return render_template("rods.html")
 
 
 @app.route('/reels')

@@ -118,6 +118,7 @@ h2{
 .snapsdiv{
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 .snaps{
     width: 60%;
@@ -225,5 +226,8 @@ h2{
     }
     #logo{
         height: 55vw;
+    }
+    #omnivore{
+        flex-flow: column;
     }
 }
