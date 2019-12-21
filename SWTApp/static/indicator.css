@@ -123,6 +123,7 @@ h2{
 }
 .snaps{
     width: 60%;
+    height:auto;
     box-sizing: border-box;
     border: .5vw solid white;
     box-shadow: 0px 1vw 1vw rgba(0, 0, 0, 2);
