@@ -123,11 +123,7 @@ h2{
     width: 60%;
 }
 .snaps{
-    object-fit: contain;
-    max-width: 100%;
-    /*max-height: 100%;*/
-    /*width: auto;*/
-    height: auto;
+    width: 40vw;
 
     box-sizing: border-box;
     border: .5vw solid white;
@@ -194,7 +190,7 @@ h2{
         height: 45vw;
     }
     .snaps{
-        width: 80%;
+        width: 60vw;
     }
     section{
         max-width: 90%;
@@ -237,7 +233,7 @@ h2{
     #omnivore{
         flex-flow: column;
     }
-    .snapsdiv{
-        width: 95%;
+    .snaps{
+        width: 90vw;
     }
 }
