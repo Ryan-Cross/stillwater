@@ -115,22 +115,28 @@ h2{
 }
 
 /*thephotographs*/
-.snapsdiv{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
+/*.snapsdiv{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    */
+/*    width: 60%;    */
+/*}*/
 .snaps{
-    width: 70%;
+    display:block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto 2rem auto;
     box-sizing: border-box;
     border: .5vw solid white;
     box-shadow: 0px 1vw 1vw rgba(0, 0, 0, 2);
 }
 .smallsnaps{
+    display:block;
     max-height: 50vw;
     box-sizing: border-box;
     border: .5vw solid white;
     box-shadow: 0px 1vw 1vw rgba(0, 0, 0, 2);
+    margin: 0 auto 2rem auto;
 }
 .lefttilt{
     transform: rotate(-1deg);
@@ -183,6 +189,9 @@ h2{
     #logo{
         height: 35vw;
     }
+    .snaps{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width:999px) {
@@ -193,7 +202,7 @@ h2{
         height: 45vw;
     }
     .snaps{
-        width: 70%;
+        width: 80%;
     }
     section{
         max-width: 90%;
@@ -237,6 +246,6 @@ h2{
         flex-flow: column;
     }
     .snaps{
-        width: 95%;
+        width: 90%;
     }
 }
